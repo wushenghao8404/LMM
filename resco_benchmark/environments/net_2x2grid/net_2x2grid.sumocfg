@@ -1,0 +1,11 @@
+<configuration>
+  <input>
+    <net-file value="/public2/home/wushenghao/repo/sumo-rl/nets/2x2grid/2x2.net.xml"/>
+	<route-files value="net_2x2grid.rou.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="100000"/>
+    <seed value="23423"/>
+  </time>
+</configuration>

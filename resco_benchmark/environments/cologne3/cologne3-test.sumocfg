@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><configuration>
+    <input>
+		<net-file value="/public2/home/wushenghao/project/TrafficSignalControl/nets/cologne3/cologne3.net.xml"/>
+        <route-files value="/public2/home/wushenghao/project/TrafficSignalControl/nets/cologne3/rou_file/c1/_15_86_27_49_32_42_126_26_12_14_49_44_23.rou.xml"/>
+    </input>
+	<time>
+        <begin value="0"/>
+        <end value="900"/>
+		<seed value="23423"/>
+    </time>
+    <time-to-teleport value="-1"/> <!-- If the value is not positive, teleporting due to grid-lock is disabled.-->
+</configuration>

@@ -1,0 +1,11 @@
+<configuration>
+  <input>
+    <net-file value="net_double.net.xml"/>
+	<route-files value="net_double.rou.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="86400"/>
+    <seed value="23423"/>
+  </time>
+</configuration>

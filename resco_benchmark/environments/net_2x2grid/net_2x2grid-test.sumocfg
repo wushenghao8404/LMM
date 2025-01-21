@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><configuration>
+    <input>
+		<net-file value="/public2/home/wushenghao/project/TrafficSignalControl/nets/net_2x2grid/net_2x2grid.net.xml"/>
+        <route-files value="/public2/home/wushenghao/project/TrafficSignalControl/nets/net_2x2grid/rou_file/c0/_108_105_32_37_127_101_40_38.rou.xml"/>
+    </input>
+	<time>
+        <begin value="0"/>
+        <end value="900"/>
+		<seed value="23423"/>
+    </time>
+    <time-to-teleport value="-1"/> <!-- If the value is not positive, teleporting due to grid-lock is disabled.-->
+</configuration>
